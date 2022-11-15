@@ -1,8 +1,8 @@
 const listaSpesa = ['Squame di drago', 'Occhi di lucertola', 'Fegato di mandragora', 'Spore di fungo magico', 'Bacchetta di mogano', 'Almanacco delle evocazioni', 'Pietra dell\'anima', 'Dolcetti di cioccolato'];
 let listaUl = document.getElementById("contieniElementi");
 let contaElementi = 0;
-let htmlLiClass ='list-group-item d-flex justify-content-between align-items-center'
-let htmlLiRemoverClass ='badge bg-danger rounded-pill cursor-pointer'
+let htmlLiClass ='list-group-item d-flex justify-content-between align-items-center';
+let htmlLiRemoverClass ='badge bg-danger rounded-pill cursor-pointer';
 
 // Aggiungitorizzatore incantato di elementi
 function nuovoElemento(elemento, indice) {
