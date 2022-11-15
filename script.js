@@ -9,7 +9,7 @@ for (let i=0; i<listaSpesa.length; i++) {
 }
 
 function nuovoElemento(elemento, indice) {
-    listaUl.innerHTML += '<li id="e' + indice + '" class="' + htmlLiClass + '">' + elemento + '<span id="x' + indice + '" onclick="rimuovi()" class="' + htmlLiRemoverClass + '">X</span></li>';
+    listaUl.innerHTML += '<li id="e' + indice + '" class="' + htmlLiClass + '">' + elemento + '<span id="x' + indice + '" onclick="rimuovi(e' + indice +')" class="' + htmlLiRemoverClass + '">X</span></li>';
     contaElementi++;
 }
 
@@ -25,6 +25,6 @@ function aggiungi() {
     nuovoElemento(aggiungiNuovo, contaElementi);
 }
 
-function rimuovi() {
-    let idParent = ""
+function rimuovi(elemento) {
+    document.getElementById("" +elemento).remove;
 }
