@@ -19,6 +19,7 @@ for (let i=0; i<listaSpesa.length; i++) {
 let i=0;
 while (i<listaSpesa.length) {
     console.log("While: " + listaSpesa[i]);
+    // Aggiunta alla pagina
     nuovoElemento(listaSpesa[i], i);
     i++;
 }
